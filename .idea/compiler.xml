@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="1118-eureka" />
+        <module name="1118-service" />
+        <module name="1118-config" />
+        <module name="1118-consumer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="1118-config" options="-parameters" />
+      <module name="1118-consumer" options="-parameters" />
+      <module name="1118-eureka" options="-parameters" />
+      <module name="1118-service" options="-parameters" />
+    </option>
+  </component>
+</project>
